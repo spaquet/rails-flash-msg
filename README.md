@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This file is provided as a bootstrap of the following article on Medium: [Rails Flash, what you need to know](https://medium.com/@spaquet/rails-flash-what-you-need-to-know-41efb61659f2)
 
-Things you may want to cover:
+Feel free to join the discussion on Medium to comment, provide feedback, submit other ideas and more.
 
-* Ruby version
+# Requirements
 
-* System dependencies
+* Rails 7
+* Bundler
+# How to install
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* `git clone git@github.com:spaquet/rails-flash-msg.git`
+* `cd rails-flash-msg`
+* `bundle install`
+* `rails db:create`
+* `rails db:migrate`
+* `./bin/dev` to start the project.
